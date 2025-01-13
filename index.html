@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript_01_osa</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./layout.css" />
+  </head>
+  <body>
+    <h1>Hei Java Script</h1>
+    <p>Kirjoitan sinulla nyt ensimmäistä kertaa.</p>
+    <p>
+      Tehtävänä on koodata JavaScriptillä keskusteluikkuna, johon lisätään
+      sisältö "Hyvää huomenta!". (alert)
+    </p>
+    <p>
+      Toisena tehtävänä kirjoittaa selaimen konsoliin jotankin. (console.log)
+    </p>
+
+    <!--  JavaScript lisätään bodyn loppuun, jotta se suoritetaan vasta kun koo DOM rakenne on valmis EDIT-TOGGLE comment -->
+    <script>
+      alert("Hyvää huomenta!");
+      console.log("Tämä teksti tulostuu sellaimen consoliin");
+
+      // JavaScript-kommenti alkaa 2 kauttavivalla COMMAND SHIFT 7
+
+      let numerot = [1, 3, 5, 7];
+
+      // tulosta selaimen konsoliin muuttujan numerot sisältö
+      console.log(numerot);
+
+      // lisää muuttujaan numerot uusi luku 9
+      numerot.pop(9);
+
+      //tulosta selaimen konsoliin muuttujan numerot sisältö
+      console.log(numerot);
+
+      //lisää muuttujaan numerot 9 ja 11
+
+      numerot.push(9, 11);
+
+      //tulosta selaimen konsoliin muuttujan numerot sisältö
+
+      console.log(numerot);
+    </script>
+  </body>
+</html>
